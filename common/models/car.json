@@ -1,0 +1,42 @@
+{
+  "name": "Car",
+  "plural": "cars",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "model": {
+      "type": "string",
+      "required": true
+    },
+    "year": {
+      "type": "number",
+      "required": true
+    },
+    "maxSpeed": {
+      "type": "number"
+    },
+    "isAutomatic": {
+      "type": "boolean",
+      "required": true
+    },
+    "engine": {
+      "type": "string",
+      "required": true
+    },
+    "numberOfDoors": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
